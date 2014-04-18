@@ -134,5 +134,11 @@ h2 {
   border: 1px solid black;
 }
 
+body {
+	background:
+		url("character_sheet_frame.png") no-repeat,
+		url("parchment.jpg");
+}
+
 
 
