@@ -3,16 +3,29 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 /* we begin */
 
+html,
+body {
+  min-height: 100%;
+}
+
 body {
   font-size: 14px;
   line-height: 22px;
-  padding: 22px;
+  background-image: url("parchment.jpg");
+  background-size: 262px 266px;
 }
 
 input {
   border: none;
   border-bottom: 1px solid black;
   outline: none;
+}
+
+.sheet-frame {
+  border: 50px solid transparent;
+  border-image: url(character_sheet_frame.png) 91 106 89 89 round;
+  min-height: 100%;
+  padding: 22px;
 }
 
 .sheet-text-input {
@@ -134,11 +147,6 @@ h2 {
   border: 1px solid black;
 }
 
-body {
-	background:
-		url("character_sheet_frame.png") no-repeat,
-		url("parchment.jpg");
-}
 
 
 
