@@ -11,9 +11,6 @@ body {
   font-size: 14px;
   line-height: 22px;
   padding: 22px;
-	background:
-		url("character_sheet_frame.png") no-repeat,
-		url("parchment.jpg");
   background-image: url("parchment.jpg");
   background-size: 262px 266px;
   border: 230px solid transparent;
