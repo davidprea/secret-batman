@@ -3,10 +3,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 /* we begin */
 
+
 body {
   font-size: 14px;
   line-height: 22px;
   padding: 22px;
+	background:
+		url("character_sheet_frame.png") no-repeat,
+		url("parchment.jpg");
 }
 
 input {
@@ -23,7 +27,8 @@ h2 {
   text-align: center;
   margin: 22px 0;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+  font-family: 'Uncial Antiqua', cursive;
 }
 
 /**
@@ -44,6 +49,7 @@ h2 {
   white-space: nowrap;
   width: 1%;
   padding-right: 11px;
+  font-family: 'Uncial Antiqua', cursive;
 }
 
 .sheet-basic-info .sheet-inner input {
@@ -81,6 +87,7 @@ h2 {
   width: 1%;
   white-space: nowrap;
   padding-right: 11px;
+  font-family: 'Uncial Antiqua', cursive;}
 }
 
 .sheet-trait input {
@@ -109,12 +116,16 @@ h2 {
 
 .attr_content > label {
   color: #90252A;
+  font-size:18px;
   font-weight: bold;
+  font-family: 'Uncial Antiqua', cursive;
 }
 
 .attr_content > input {
   border-radius: 100%;
   width: 50px;
+  font-size:18px;
+  font-style:"bold";
   height: 43px;
   border: 4px double black;
   background:url('parchment.jpg');
@@ -125,7 +136,11 @@ h2 {
   line-height: 30px;
   position: absolute;
   top: -5px;
-  right: -57px;
+  right: -70px;
+}
+
+.attr_favoured-wrapper > label {
+	font-family: 'Uncial Antiqua', cursive;
 }
 
 .attr_favoured-wrapper > input {
@@ -136,11 +151,8 @@ h2 {
   background:url('parchment.jpg');
 }
 
-body {
-	background:
-		url("character_sheet_frame.png") no-repeat,
-		url("parchment.jpg");
-}
+
+
 
 
 
