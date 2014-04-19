@@ -117,6 +117,7 @@ h2 {
   width: 50px;
   height: 43px;
   border: 4px double black;
+  background:url('parchment.jpg');
 }
 
 .attr_favoured-wrapper {
@@ -132,6 +133,7 @@ h2 {
   width: 30px;
   height: 25px;
   border: 1px solid black;
+  background:url('parchment.jpg');
 }
 
 body {
@@ -139,6 +141,8 @@ body {
 		url("character_sheet_frame.png") no-repeat,
 		url("parchment.jpg");
 }
+
+
 
 
 
