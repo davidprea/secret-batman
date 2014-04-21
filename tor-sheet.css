@@ -188,7 +188,7 @@ Common Skills
 Checkbox Experiments
 */
 
-input[type=checkbox] {
+input.attr_skill_checkbox[type=checkbox] {
   opacity:0;
   height:14px;
   position:absolute;
@@ -196,7 +196,7 @@ input[type=checkbox] {
   vertical-align:middle;
 }
 
-input[type=checkbox] + label
+input.attr_skill_checkbox[type=checkbox] + label
  {
      background: url(skill_check.png) no-repeat;
      height: 14px;
@@ -204,9 +204,10 @@ input[type=checkbox] + label
      display:inline-block;
      padding: 0 0 0 0px;
 	 vertical-align:middle;
+	cursor:pointer;
  }
  
-input[type=checkbox]:checked + label
+input.attr_skill_checkbox[type=checkbox]:checked + label
  {
     background: url(skill_check_on.png) no-repeat;
     height: 14px;
@@ -215,6 +216,30 @@ input[type=checkbox]:checked + label
     padding: 0 0 0 0px;
 	vertical-align:middle;
  }
+
+input.attr_favoured_skill_checkbox[type=checkbox] {
+  opacity:0;
+  position:absolute;
+  vertical-align:middle;
+width:100px;
+cursor:pointer;
+}
+
+input.attr_favoured_skill_checkbox[type=checkbox] + label
+ {
+     display:inline-block;
+     padding: 0 0 0 0px;
+	 vertical-align:middle;
+ }
+
+input.attr_favoured_skill_checkbox[type=checkbox]:checked + label
+ {
+    display:inline-block;
+    padding: 0 0 0 0px;
+	vertical-align:middle;
+	text-decoration:underline;
+ }
+
 
 
 

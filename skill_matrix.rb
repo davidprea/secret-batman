@@ -15,7 +15,6 @@ skillz.keys.each do | key |
   skills.each do | skill |
     file.write( "\t<div class=\"attr_skill_wrapper\">\n" )
     file.write( "\t\t<input type='checkbox' class='attr_favoured_skill_checkbox' name=\"attr_#{skill.downcase}_favoured_p\" value=1>\n")
-    file.write( "\t\t<label for=\"attr_#{skill.downcase}_favoured_p\"></label>\n")
     file.write( "\t\t<label class=\"attr_skill_label\">#{skill}</label>\n")
     file.write( "\t\t\t<div class=\"attr_skill_boxes_wrapper\">\n" )
     6.times do | i |
