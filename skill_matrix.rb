@@ -11,14 +11,15 @@ skillz = {"Body" => ["Awe", "Athletics", "Awareness", "Explore", "Song", "Craft"
 skillz.keys.each do | key |
   skills = skillz[key]
   
-  file.write( "<div class=\"attr_#{key.downcase}_skills_wrapper\">\n")
+  file.write( "<div class=\"attr_#{key.downcase}_skills_wrapper sheet-comon-skills-wrapper\">\n")
   skills.each do | skill |
     file.write( "\t<div class=\"attr_skill_wrapper\">\n" )
     file.write( "\t\t<input type='checkbox' class='attr_favoured_skill_checkbox' name=\"attr_#{skill.downcase}_favoured_p\" value=1>\n")
+    file.write( "\t\t<label for=\"attr_#{skill.downcase}_favoured_p\"></label>\n")
     file.write( "\t\t<label>#{skill}</label>\n")
     file.write( "\t\t\t<div class=\"attr_skill_boxes_wrapper\">\n" )
     6.times do | i |
-      file.write( "\t\t\t\t<input type=\"checkbox\" class=\"attr_skill_checkbox\" name=\"attr_#{skill.downcase}#{i+1}\" value=1>\n" )
+      file.write( "\t\t\t\t<input type=\"checkbox\" class=\"attr_skill_checkbox\" name=\"attr_#{skill.downcase}#{i+1}\" value=1><label></label>\n" )
     end
     file.write( "\t\t\t</div>\n")
     value_string = ""

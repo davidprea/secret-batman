@@ -165,15 +165,48 @@ h2 {
 Common Skills
 */
 
-.sheet-common-skills-wrapper {
+
+.attr_skill_wrapper {
+	width: 25%;
 	display:inline-block;
-	width:33%;
+	margin-right:4%;
+	margin-left:4%;
 }
 
 .attr_skill_boxes_wrapper {
 	display:inline-block;
 	float:right;
 }
+
+/*
+Checkbox Experiments
+*/
+
+input[type=checkbox] {
+  opacity:0;
+  height:14px;
+  position:absolute;
+  width:13px;
+}
+
+input[type=checkbox] + label
+ {
+     background: url(skill_check.png) no-repeat;
+     height: 14px;
+     width: 13px;
+     display:inline-block;
+     padding: 0 0 0 0px;
+ }
+ 
+input[type=checkbox]:checked + label
+ {
+    background: url(skill_check_on.png) no-repeat;
+    height: 14px;
+    width: 13px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+ }
+
 
 
 
