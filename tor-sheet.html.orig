@@ -1,0 +1,342 @@
+<link rel="stylesheet" type="text/css" href="tor-sheet.css">
+<<<<<<< HEAD
+<link href='http://fonts.googleapis.com/css?family=Uncial+Antiqua' rel='stylesheet' type='text/css'>
+<div class="frame">
+	  
+=======
+<div class="sheet-frame">
+  
+>>>>>>> 0ed59063858a74c143641c2b1ba839313a55734d
+  <div class="sheet-basic-info">
+    <div class="sheet-name-wrapper">
+      <div class="sheet-inner">
+        <label>Name</label>
+        <input type="text" name="attr_name" class="sheet-text-input">
+      </div>      
+    </div>
+
+    <div class="sheet-culture-wrapper">
+      <div class="sheet-inner">
+        <label>Culture</label>
+        <input type="text" name="attr_culture"  class="sheet-text-input">
+      </div>      
+    </div>
+
+    <div class="sheet-standard-of-living-wrapper">
+      <div class="sheet-inner">
+        <label>Standard of Living</label>
+        <input type="text" name="attr_standard-of-living" class="sheet-text-input">
+      </div>      
+    </div>
+
+    <div class="sheet-cultural-blassing-wrapper">
+      <div class="sheet-inner">
+        <label>Cultural Blessing</label>
+        <input type="text" name="attr_cultural-blessing" class="sheet-text-input">
+      </div>      
+    </div>
+
+    <div class="sheet-calling-wrapper">
+      <div class="sheet-inner">
+        <label>Calling</label>
+        <input type="text" name="attr_calling" class="sheet-text-input">
+      </div>      
+    </div>
+
+    <div class="sheet-shadow-weakness-wrapper">
+      <div class="sheet-inner">
+        <label>Shadow Weakness</label>
+        <input type="text" name="attr_shadow-weakness" class="sheet-text-input">
+      </div>      
+    </div>
+  </div>
+
+
+  <div class="sheet-traits">
+    <h2>Traits</h2>
+
+    <div class="sheet-trait sheet-specialities-wrapper">
+      <label>Specialities</label>
+      <input type="text" name="attr_specialities" class="sheet-text-input">
+    </div>
+
+    <div class="sheet-trait sheet-distinctive-features-wrapper">
+      <label>Distinctive Features</label>
+      <input type="text" name="attr_distinctive-features" class="sheet-text-input">
+    </div>
+  </div>
+
+
+  <div class="sheet-attributes">
+
+    <h2>Attributes</h2>
+
+    <div class="attr_body-wrapper attr_wrapper">
+      <div class="attr_content">
+        <label>Body</label>
+        <input type="text" name="attr_body">
+
+        <div class="body-favoured-wrapper attr_favoured-wrapper">
+          <input type="text" name="attr_body-favoured">
+          <label>Favoured</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="attr_heart-wrapper attr_wrapper">
+      <div class="attr_content">
+        <label>Heart</label>
+        <input type="text" name="attr_heart">
+
+        <div class="heart-favoured-wrapper attr_favoured-wrapper">
+          <input type="text" name="attr_heart-favoured">
+          <label>Favoured</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="attr_wits-wrapper attr_wrapper">
+      <div class="attr_content">
+        <label>Wits</label>
+        <input type="text" name="attr_wits">
+
+        <div class="wits-favoured-wrapper attr_favoured-wrapper">
+          <input type="text" name="attr_wits-favoured">
+          <label>Favoured</label>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="sheet-common-skills">
+    <h2>Common Skills</h2>
+	
+	<div class="attr_body_skills_wrapper">
+		<div class="attr_skill_wrapper">
+			<input type="checkbox" class="attr_favoured_skill_checkbox">
+			<label>Awe</label>
+			<div class="attr_skill_boxes_wrapper">
+				<input type="checkbox" class="attr_skill_checkbox">
+				<input type="checkbox" class="attr_skill_checkbox">
+				<input type="checkbox" class="attr_skill_checkbox">
+				<input type="checkbox" class="attr_skill_checkbox">
+				<input type="checkbox" class="attr_skill_checkbox">
+				<input type="checkbox" class="attr_skill_checkbox">
+			</div>
+		</div>
+		<div class="attr_skill_wrapper">
+			<input type="checkbox" class="attr_favoured_skill_checkbox">
+			<label>Athletics</label>
+			<div class="attr_skill_boxes_wrapper">
+				<input type="checkbox" class="attr_skill_checkbox">
+				<input type="checkbox" class="attr_skill_checkbox">
+				<input type="checkbox" class="attr_skill_checkbox">
+				<input type="checkbox" class="attr_skill_checkbox">
+				<input type="checkbox" class="attr_skill_checkbox">
+				<input type="checkbox" class="attr_skill_checkbox">
+			</div>
+		</div>
+		<div class="attr_skill_wrapper">
+			<input type="checkbox" class="attr_favoured_skill_checkbox">
+			<label>Awareness</label>
+			<div class="attr_skill_boxes_wrapper">
+				<input type="checkbox" class="attr_skill_checkbox">
+				<input type="checkbox" class="attr_skill_checkbox">
+				<input type="checkbox" class="attr_skill_checkbox">
+				<input type="checkbox" class="attr_skill_checkbox">
+				<input type="checkbox" class="attr_skill_checkbox">
+				<input type="checkbox" class="attr_skill_checkbox">
+			</div>
+		</div>
+		<div class="attr_skill_wrapper">
+			<input type="checkbox" class="attr_favoured_skill_checkbox">
+			<label>Explore</label>
+			<div class="attr_skill_boxes_wrapper">
+				<input type="checkbox" class="attr_skill_checkbox">
+				<input type="checkbox" class="attr_skill_checkbox">
+				<input type="checkbox" class="attr_skill_checkbox">
+				<input type="checkbox" class="attr_skill_checkbox">
+				<input type="checkbox" class="attr_skill_checkbox">
+				<input type="checkbox" class="attr_skill_checkbox">
+			</div>
+		</div>
+		<div class="attr_skill_wrapper">
+			<input type="checkbox" class="attr_favoured_skill_checkbox">
+			<label>Song</label>
+			<div class="attr_skill_boxes_wrapper">
+				<input type="checkbox" class="attr_skill_checkbox">
+				<input type="checkbox" class="attr_skill_checkbox">
+				<input type="checkbox" class="attr_skill_checkbox">
+				<input type="checkbox" class="attr_skill_checkbox">
+				<input type="checkbox" class="attr_skill_checkbox">
+				<input type="checkbox" class="attr_skill_checkbox">
+			</div>
+		</div>
+		<div class="attr_skill_wrapper">
+			<input type="checkbox" class="attr_favoured_skill_checkbox">
+			<label>Craft</label>
+			<div class="attr_skill_boxes_wrapper">
+				<input type="checkbox" class="attr_skill_checkbox">
+				<input type="checkbox" class="attr_skill_checkbox">
+				<input type="checkbox" class="attr_skill_checkbox">
+				<input type="checkbox" class="attr_skill_checkbox">
+				<input type="checkbox" class="attr_skill_checkbox">
+				<input type="checkbox" class="attr_skill_checkbox">
+			</div>
+		</div>
+
+		<div class="attr_heart_skills_wrapper">
+			<div class="attr_skill_wrapper">
+				<input type="checkbox" class="attr_favoured_skill_checkbox">
+				<label>Inspire</label>
+				<div class="attr_skill_boxes_wrapper">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+				</div>
+			</div>
+			<div class="attr_skill_wrapper">
+				<input type="checkbox" class="attr_favoured_skill_checkbox">
+				<label>Travel</label>
+				<div class="attr_skill_boxes_wrapper">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+				</div>
+			</div>
+			<div class="attr_skill_wrapper">
+				<input type="checkbox" class="attr_favoured_skill_checkbox">
+				<label>Insight</label>
+				<div class="attr_skill_boxes_wrapper">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+				</div>
+			</div>
+			<div class="attr_skill_wrapper">
+				<input type="checkbox" class="attr_favoured_skill_checkbox">
+				<label>Healing</label>
+				<div class="attr_skill_boxes_wrapper">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+				</div>
+			</div>
+			<div class="attr_skill_wrapper">
+				<input type="checkbox" class="attr_favoured_skill_checkbox">
+				<label>Courtesy</label>
+				<div class="attr_skill_boxes_wrapper">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+				</div>
+			</div>
+			<div class="attr_skill_wrapper">
+				<input type="checkbox" class="attr_favoured_skill_checkbox">
+				<label>Battle</label>
+				<div class="attr_skill_boxes_wrapper">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+				</div>
+			</div>
+		</div>
+
+		<div class="attr_wits_skills_wrapper">
+			<div class="attr_skill_wrapper">
+				<input type="checkbox" class="attr_favoured_skill_checkbox">
+				<label>Persuade</label>
+				<div class="attr_skill_boxes_wrapper">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+				</div>
+			</div>
+			<div class="attr_skill_wrapper">
+				<input type="checkbox" class="attr_favoured_skill_checkbox">
+				<label>Stealth</label>
+				<div class="attr_skill_boxes_wrapper">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+				</div>
+			</div>
+			<div class="attr_skill_wrapper">
+				<input type="checkbox" class="attr_favoured_skill_checkbox">
+				<label>Search</label>
+				<div class="attr_skill_boxes_wrapper">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+				</div>
+			</div>
+			<div class="attr_skill_wrapper">
+				<input type="checkbox" class="attr_favoured_skill_checkbox">
+				<label>Hunting</label>
+				<div class="attr_skill_boxes_wrapper">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+				</div>
+			</div>
+			<div class="attr_skill_wrapper">
+				<input type="checkbox" class="attr_favoured_skill_checkbox">
+				<label>Riddle</label>
+				<div class="attr_skill_boxes_wrapper">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+				</div>
+			</div>
+			<div class="attr_skill_wrapper">
+				<input type="checkbox" class="attr_favoured_skill_checkbox">
+				<label>Lore</label>
+				<div class="attr_skill_boxes_wrapper">
+					<input type="checkbox" class="attr_skill_checkbox"><label></label>
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+					<input type="checkbox" class="attr_skill_checkbox">
+				</div>
+			</div>
+		</div>				
+    
+  </div>
+		
+</div>
+
