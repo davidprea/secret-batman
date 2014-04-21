@@ -178,6 +178,11 @@ Common Skills
 	float:right;
 }
 
+.attr_skill_label {
+	font-family: 'Uncial Antiqua', cursive;
+	font-size: 12px;
+}
+
 /*
 Checkbox Experiments
 */
