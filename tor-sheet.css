@@ -161,7 +161,19 @@ h2 {
   background:url('parchment.jpg');
 }
 
+/*
+Common Skills
+*/
 
+.sheet-common-skills-wrapper {
+	display:inline-block;
+	width:33%;
+}
+
+.attr_skill_boxes_wrapper {
+	display:inline-block;
+	float:right;
+}
 
 
 
